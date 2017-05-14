@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="toggle_silent">Toggle Silent Mode</string>
+    <string name="phoneimage_descr">PhoneRing On/Off</string>
+</resources>
