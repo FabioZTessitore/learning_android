@@ -27,8 +27,8 @@
         android:layout_marginBottom="24dp"
         android:checked="false"
         android:onClick="onToggleSilentMode"
-        android:textOff="@string/toggle_silent"
-        android:textOn="@string/toggle_silent"
+        android:textOff="@string/toggle_off"
+        android:textOn="@string/toggle_on"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />

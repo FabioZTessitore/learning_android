@@ -32,12 +32,19 @@ public class MainActivity extends AppCompatActivity {
         this.setup();
     }
 
+    /*@Override
+    protected void OnPause() {
+        super.onPause();
+
+        this.setup();
+    }*/
+
     private void setup() {
         this.phoneIsSilent = this.checkRingerMode();
         this.setPhoneImage();
     }
 
-    private void onToggleSilentMode(View view) {
+    public void onToggleSilentMode(View view) {
         NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         if (nm.isNotificationPolicyAccessGranted()) {
             this.audioManager.setRingerMode(this.phoneIsSilent ? AudioManager.RINGER_MODE_NORMAL : AudioManager.RINGER_MODE_SILENT);

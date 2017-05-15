@@ -3,4 +3,5 @@
     <string name="app_name">Prima App</string>
     <string name="edit_message">Inserisci un messaggio</string>
     <string name="send_button">Invia</string>
+    <string name="message">Dimmi qualcosa</string>
 </resources>
