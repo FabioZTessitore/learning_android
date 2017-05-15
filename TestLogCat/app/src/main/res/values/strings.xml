@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">TestLogCat</string>
-    <string name="btn_hello">Hello LogCat</string>
-</resources>
