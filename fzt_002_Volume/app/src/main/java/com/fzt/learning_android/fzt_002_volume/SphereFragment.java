@@ -38,8 +38,10 @@ public class SphereFragment extends Fragment {
                 String value_str = editText.getText().toString().trim();
 
                 double value = Double.parseDouble(value_str);
-                double result = 4. / 3. * Math.PI * value * value * value;
-                String result_str = String.format("The volume of the Sphere is %g", result);
+                double result_div_pi = 4. / 3. * value * value * value;
+                double result = Math.PI * result_div_pi;
+
+                String result_str = String.format("The volume of the Sphere is %g\u03c0 = %g", result_div_pi, result);
 
                 TextView textView = (TextView) getView().findViewById(R.id.textViewSphere);
                 textView.setText(result_str);
