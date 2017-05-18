@@ -21,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void chooseGeometry(View view) {
         int id = ((RadioButton) view).getId();
+
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
         switch (id) {
             case R.id.radioCube:
-                Log.d("MYID", "Cube");
                 CubeFragment cubeFragment = new CubeFragment();
                 fragmentTransaction.replace(R.id.fragment_container, cubeFragment).commit();
                 break;
             case R.id.radioSphere:
-                Log.d("MYID", "Sphere");
                 SphereFragment sphereFragment = new SphereFragment();
                 fragmentTransaction.replace(R.id.fragment_container, sphereFragment).commit();
                 break;

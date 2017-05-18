@@ -2,10 +2,11 @@
     <string name="app_name">Volume</string>
     <string name="radio_sphere">Sphere</string>
     <string name="radio_cube">Cube</string>
-    <string name="reset_button">Reset</string>
+    <string name="reset_button" translatable="false">Reset</string>
     <string name="cube_side">Side of the Cube</string>
     <string name="cube_do">Calculate</string>
     <string name="sphere_radius">Radius of the Sphere</string>
     <string name="sphere_do">Calculate</string>
     <string name="initial_message">Please Choice Cube or Sphere</string>
+    <string name="heading">Volume: Calculate volume of a Cube or of a Sphere</string>
 </resources>

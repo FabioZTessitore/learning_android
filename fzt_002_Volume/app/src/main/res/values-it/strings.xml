@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume</string>
+    <string name="cube_do">Calcola</string>
+    <string name="cube_side">Lato del Cubo</string>
+    <string name="heading">Volume: calcola il volume di un Cubo o di una Sfera</string>
+    <string name="initial_message">Scegli, Cubo o Sfera</string>
+    <string name="radio_cube">Cubo</string>
+    <string name="radio_sphere">Sfera</string>
+    <string name="sphere_do">Calcola</string>
+    <string name="sphere_radius">Raggio della sfera</string>
+</resources>
