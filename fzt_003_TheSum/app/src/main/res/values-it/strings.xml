@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total">Totale</string>
+    <string name="partial">Parziale</string>
+    <string name="num_to_add">Quantità da aggiungere</string>
+    <string name="add_btn">Aggiungi</string>
+    <string name="unable_create_file">Impossibile creare il file</string>
+    <string name="unable_save_data">Impossibile salvare</string>
+    <string name="max_value">Raggiunto valore massimo</string>
+    <string name="int_too_big">Valore troppo grande</string>
+    <string name="reset_sum">Azzera Somma Totale</string>
+</resources>

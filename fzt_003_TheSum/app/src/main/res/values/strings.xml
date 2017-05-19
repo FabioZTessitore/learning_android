@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">TheSum</string>
+    <string name="total">Total</string>
+    <string name="partial">Partial</string>
+    <string name="num_to_add">Enter a number to add</string>
+    <string name="add_btn">Add</string>
+    <string name="unable_create_file">Unable to create the file</string>
+    <string name="unable_save_data">Unable to save data</string>
+    <string name="max_value">Reached max value</string>
+    <string name="int_too_big">Value too big</string>
+    <string name="reset_sum">Reset Total Sum</string>
+</resources>
