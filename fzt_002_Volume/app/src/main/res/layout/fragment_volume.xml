@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fzt.learning_android.fzt_002_volume.CubeFragment">
+    tools:context="com.fzt.learning_android.fzt_002_volume.VolumeFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -12,31 +12,29 @@
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/editTextCube"
+            android:id="@+id/editTextVolume"
             android:layout_width="0dp"
             android:layout_height="43dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:ems="10"
-            android:hint="@string/cube_side"
             android:inputType="number|numberDecimal"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toLeftOf="@+id/buttonCube"
+            app:layout_constraintRight_toLeftOf="@+id/buttonVolume"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/buttonCube"
+            android:id="@+id/buttonVolume"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
-            android:text="@string/cube_do"
-            app:layout_constraintBaseline_toBaselineOf="@+id/editTextCube"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editTextVolume"
             app:layout_constraintRight_toRightOf="parent" />
 
         <TextView
-            android:id="@+id/textViewCube"
+            android:id="@+id/textViewVolume"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -46,7 +44,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextCube" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextVolume" />
 
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

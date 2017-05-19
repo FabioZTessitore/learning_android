@@ -2,7 +2,6 @@ package com.fzt.learning_android.fzt_002_volume;
 
 
 import android.app.Activity;
-import android.inputmethodservice.InputMethodService;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,32 +16,37 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CubeFragment extends Fragment {
+public class VolumeFragment extends Fragment {
 
-    public CubeFragment() {
-        // Required empty public constructor
+    private Volume object3d;    /* Cube or Sphere */
+    private int edit;
+    private int btn;
+
+    public VolumeFragment(Volume obj, int edit, int btn) {
+        this.object3d = obj;
+        this.edit = edit;
+        this.btn = btn;
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        final View rootView = (View) inflater.inflate(R.layout.fragment_cube, container, false);
+        final View rootView = (View) inflater.inflate(R.layout.fragment_volume, container, false);
 
-        Button mButton = (Button) rootView.findViewById(R.id.buttonCube);
+        final EditText editText = (EditText) rootView.findViewById(R.id.editTextVolume);
+        editText.setHint(this.edit);
+        Button button = (Button) rootView.findViewById(R.id.buttonVolume);
+        button.setText(this.btn);
 
-        mButton.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Activity.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(rootView.getWindowToken(), 0);
 
-                EditText editText = (EditText) getView().findViewById(R.id.editTextCube);
+                //editText = (EditText) getView().findViewById(R.id.editTextVolume);
                 String value_str = editText.getText().toString().trim();
-
                 double value = Double.parseDouble(value_str);
-
-                double result = value * value * value;
-                String result_str = String.format("The volume of the Cube is %g", result);
-
-                TextView textView = (TextView) getView().findViewById(R.id.textViewCube);
+                String result_str = object3d.volume(value);
+                TextView textView = (TextView) getView().findViewById(R.id.textViewVolume);
                 textView.setText(result_str);
             }
         });

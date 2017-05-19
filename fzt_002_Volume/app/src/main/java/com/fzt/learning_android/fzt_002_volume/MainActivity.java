@@ -4,7 +4,6 @@ import android.app.FragmentTransaction;
 import android.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
 
@@ -27,11 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.radioCube:
-                CubeFragment cubeFragment = new CubeFragment();
+                Cube cube = new Cube();
+                VolumeFragment cubeFragment = new VolumeFragment(cube, R.string.cube_side, R.string.cube_do);
                 fragmentTransaction.replace(R.id.fragment_container, cubeFragment).commit();
                 break;
             case R.id.radioSphere:
-                SphereFragment sphereFragment = new SphereFragment();
+                Sphere sphere = new Sphere();
+                VolumeFragment sphereFragment = new VolumeFragment(sphere, R.string.sphere_radius, R.string.sphere_do);
                 fragmentTransaction.replace(R.id.fragment_container, sphereFragment).commit();
                 break;
         }
