@@ -6,4 +6,9 @@
     <string name="next">Next</string>
     <string name="cb_toggle_on">CheckBox is Checked</string>
     <string name="cb_toggle_off">CheckBox is Unchecked</string>
+    <string name="rg_horizontal">Horizontal</string>
+    <string name="rg_vertical">Vertical</string>
+    <string name="rg_left">Left</string>
+    <string name="rg_center">Center</string>
+    <string name="rg_right">Right</string>
 </resources>

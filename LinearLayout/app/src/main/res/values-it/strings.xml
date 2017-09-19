@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">LinearLayout</string>
-    <string name="center">Centro</string>
-    <string name="horizontal">Orizzontale</string>
-    <string name="left">Sinistra</string>
-    <string name="right">Destra</string>
-    <string name="vertical">Verticale</string>
-</resources>

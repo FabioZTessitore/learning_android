@@ -32,4 +32,9 @@ public class CheckBoxActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void next(View view) {
+        Intent intent = new Intent(this, RadioGroupActivity.class);
+        startActivity(intent);
+    }
 }
