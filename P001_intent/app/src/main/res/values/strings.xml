@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P001_intent</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="send_message">Send</string>
+    <string name="message">Tell me something!</string>
+    <string name="home">Return to Home</string>
+</resources>
