@@ -2,4 +2,8 @@
     <string name="app_name">P003_widgets</string>
     <string name="app_description">Widgets</string>
     <string name="start">Start</string>
+    <string name="back">Prev</string>
+    <string name="next">Next</string>
+    <string name="cb_toggle_on">CheckBox is Checked</string>
+    <string name="cb_toggle_off">CheckBox is Unchecked</string>
 </resources>

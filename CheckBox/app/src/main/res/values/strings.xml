@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">CheckBox</string>
-    <string name="toggle_on">CheckBox is Checked</string>
-    <string name="toggle_off">CheckBox is Unchecked</string>
-</resources>
