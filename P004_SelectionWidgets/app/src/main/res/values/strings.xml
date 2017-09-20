@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P004_SelectionWidgets</string>
+    <string name="list1_description">Using a ListView and an ArrayAdapter&lt;String&gt; into an AppCompatActivity</string>
+    <string name="list1_selection">Select an item not yet implemented</string>
+</resources>
