@@ -11,4 +11,8 @@
     <string name="rg_left">Left</string>
     <string name="rg_center">Center</string>
     <string name="rg_right">Right</string>
+    <string name="tb_description">Table</string>
+    <string name="tb_name">Name:</string>
+    <string name="tb_send">Send</string>
+    <string name="tb_reset">Reset</string>
 </resources>

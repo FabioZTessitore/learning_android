@@ -30,6 +30,11 @@ public class RadioGroupActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, TableActivity.class);
+        startActivity(intent);
+    }
+
 
     class RadioGroupListener implements RadioGroup.OnCheckedChangeListener
     {
