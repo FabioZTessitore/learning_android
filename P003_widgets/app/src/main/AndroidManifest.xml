@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioGroupActivity" />
-        <activity android:name=".TableActivity"></activity>
+        <activity android:name=".TableActivity" />
+        <activity android:name=".ScrollTableActivity"></activity>
     </application>
 
 </manifest>

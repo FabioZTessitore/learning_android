@@ -20,6 +20,11 @@ public class TableActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, ScrollTableActivity.class);
+        startActivity(intent);
+    }
+
     public void setName(View view) {
         EditText editText = (EditText) findViewById(R.id.tb_name);
         TextView textView = (TextView) findViewById(R.id.tb_name_show);
