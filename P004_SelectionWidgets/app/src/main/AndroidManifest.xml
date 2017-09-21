@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MyListViewActivity" />
         <activity android:name=".MyListActivity" />
-        <activity android:name=".SpinnerActivity"></activity>
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".GridActivity"></activity>
     </application>
 
 </manifest>

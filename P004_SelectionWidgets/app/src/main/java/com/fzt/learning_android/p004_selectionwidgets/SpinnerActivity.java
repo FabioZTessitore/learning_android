@@ -37,6 +37,11 @@ public class SpinnerActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, GridActivity.class);
+        startActivity(intent);
+    }
+
     class ItemSelectionHandler implements AdapterView.OnItemSelectedListener
     {
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id)

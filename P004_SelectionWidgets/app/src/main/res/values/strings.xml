@@ -10,4 +10,6 @@
     <string name="list3_selection">Select an item</string>
     <string name="spinner1_description">Using a Spinner</string>
     <string name="spinner1_selection">Select an item</string>
+    <string name="grid1_description">Using a Grid</string>
+    <string name="grid1_selection">Select an item</string>
 </resources>
