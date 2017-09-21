@@ -14,4 +14,6 @@
     <string name="grid1_selection">Select an item</string>
     <string name="grid2_description">Using a Grid with a custom Adapter</string>
     <string name="grid2_selection">Select an item</string>
+    <string name="autocomplete_description">Using a AutoCompleteTextView</string>
+    <string name="autocomplete_selection">Write something ...</string>
 </resources>

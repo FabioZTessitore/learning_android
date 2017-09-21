@@ -38,6 +38,11 @@ public class Grid2Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, AutoCompleteTextViewActivity.class);
+        startActivity(intent);
+    }
+
     class CustomAdapter extends ArrayAdapter
     {
         Context ctxt;

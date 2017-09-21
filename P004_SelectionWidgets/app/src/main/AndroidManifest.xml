@@ -20,7 +20,8 @@
         <activity android:name=".MyListActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".GridActivity" />
-        <activity android:name=".Grid2Activity"></activity>
+        <activity android:name=".Grid2Activity" />
+        <activity android:name=".AutoCompleteTextViewActivity"></activity>
     </application>
 
 </manifest>
