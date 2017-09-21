@@ -12,4 +12,6 @@
     <string name="spinner1_selection">Select an item</string>
     <string name="grid1_description">Using a Grid</string>
     <string name="grid1_selection">Select an item</string>
+    <string name="grid2_description">Using a Grid with a custom Adapter</string>
+    <string name="grid2_selection">Select an item</string>
 </resources>

@@ -19,7 +19,8 @@
         <activity android:name=".MyListViewActivity" />
         <activity android:name=".MyListActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".GridActivity"></activity>
+        <activity android:name=".GridActivity" />
+        <activity android:name=".Grid2Activity"></activity>
     </application>
 
 </manifest>
