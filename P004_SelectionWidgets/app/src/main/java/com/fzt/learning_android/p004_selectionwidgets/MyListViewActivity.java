@@ -36,10 +36,15 @@ public class MyListViewActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, MyListActivity.class);
+        startActivity(intent);
+    }
+
     class ItemClickHandler implements AdapterView.OnItemClickListener
     {
         @Override
-        public void onItemClick(AdapterView<?> view, View parent, int position, long id) {
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             TextView selection = (TextView) findViewById(R.id.selection);
             selection.setText(items[position]);
         }
