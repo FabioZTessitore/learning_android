@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyListViewActivity" />
-        <activity android:name=".MyListActivity"></activity>
+        <activity android:name=".MyListActivity" />
+        <activity android:name=".SpinnerActivity"></activity>
     </application>
 
 </manifest>

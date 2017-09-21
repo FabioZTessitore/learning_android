@@ -31,6 +31,11 @@ public class MyListActivity extends ListActivity {
         startActivity(intent);
     }
 
+    public void next(View view) {
+        Intent intent = new Intent(this, SpinnerActivity.class);
+        startActivity(intent);
+    }
+
     public void onListItemClick(ListView parent, View view, int position, long id) {
         TextView selection = (TextView) findViewById(R.id.selection);
         selection.setText(items[position]);
