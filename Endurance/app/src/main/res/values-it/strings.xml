@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unable_create_file">Impossibile creare il file</string>
+    <string name="unable_save_data">Impossibile salvare</string>
+    <string name="save">Salva</string>
+    <string name="lt_tot">Pieno</string>
+    <string name="consumo_h">Consumo H</string>
+    <string name="app_name" translatable="false">Autonomia</string>
+    <string name="fuel_on_board">Carburante Rimanente</string>
+</resources>

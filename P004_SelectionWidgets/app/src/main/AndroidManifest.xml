@@ -21,7 +21,9 @@
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".GridActivity" />
         <activity android:name=".Grid2Activity" />
-        <activity android:name=".AutoCompleteTextViewActivity"></activity>
+        <activity android:name=".AutoCompleteTextViewActivity" />
+        <activity android:name=".MyListSingleChoiceActivity" />
+        <activity android:name=".MyListMultiChoiceActivity"></activity>
     </application>
 
 </manifest>

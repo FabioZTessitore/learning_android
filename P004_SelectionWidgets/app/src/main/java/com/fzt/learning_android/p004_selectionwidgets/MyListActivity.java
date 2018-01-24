@@ -32,7 +32,7 @@ public class MyListActivity extends ListActivity {
     }
 
     public void next(View view) {
-        Intent intent = new Intent(this, SpinnerActivity.class);
+        Intent intent = new Intent(this, MyListSingleChoiceActivity.class);
         startActivity(intent);
     }
 

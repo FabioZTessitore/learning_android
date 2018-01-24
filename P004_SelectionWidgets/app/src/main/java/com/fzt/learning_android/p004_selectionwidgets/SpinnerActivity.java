@@ -23,9 +23,9 @@ public class SpinnerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner);
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, items);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setAdapter(arrayAdapter);
 
         ItemSelectionHandler itemSelectionHandler = new ItemSelectionHandler();
@@ -33,7 +33,7 @@ public class SpinnerActivity extends AppCompatActivity {
     }
 
     public void prev(View view) {
-        Intent intent = new Intent(this, MyListActivity.class);
+        Intent intent = new Intent(this, MyListMultiChoiceActivity.class);
         startActivity(intent);
     }
 

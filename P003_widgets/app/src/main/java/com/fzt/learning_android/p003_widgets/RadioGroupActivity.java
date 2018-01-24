@@ -19,8 +19,10 @@ public class RadioGroupActivity extends AppCompatActivity {
 
         RadioGroup orientation = (RadioGroup) findViewById(R.id.orientation);
         RadioGroup gravity = (RadioGroup) findViewById(R.id.gravity);
+
         orientation.clearCheck();
         gravity.clearCheck();
+
         orientation.setOnCheckedChangeListener(radioGroupListener);
         gravity.setOnCheckedChangeListener(radioGroupListener);
     }

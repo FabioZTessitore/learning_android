@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Endurance</string>
+    <string name="save">Save</string>
+    <string name="unable_create_file">Unable to create the file</string>
+    <string name="unable_save_data">Unable to save data</string>
+    <string name="quarters" translatable="false">/ 4</string>
+    <string name="lt_tot">Full</string>
+    <string name="consumo_h">H</string>
+    <string name="pref_file" translatable="false">endurance.dat</string>
+    <string name="fuel_on_board">Fuel On Board</string>
+</resources>
