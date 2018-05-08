@@ -11,10 +11,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /* In activity_main.xml e' presente la struttura
-        dell'attivita' principale.
-
-        All'interno di un ConstraintLayout e' presente
-        una casella di testo (TextView).
+        dell'attivita' principale: all'interno di un
+        ConstraintLayout e' presente una casella di testo (TextView).
 
         Vogliamo modificare le caratteristiche di questa
         casella (testo, dimensione, colore) attraverso
@@ -26,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         In res.values.strings.xml sono presenti le stringhe
         utilizzate nell'applicazione.
 
-        E' stata aggiunta la stringa con
+        E' stata aggiunta la stringa (con localizzazione)
             name: welcome
             value: Welcome to Android App Development!
 
