@@ -10,19 +10,25 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button dateButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button dateButton = (Button) findViewById(R.id.dateButton);
-        dateButton.setText( new Date().toString() );
+        dateButton = (Button) findViewById(R.id.dateButton);
+        this.updateDate();
 
         dateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dateButton.setText( new Date().toString() );
+                updateDate();
             }
         });
+    }
+
+    private void updateDate() {
+        dateButton.setText( new Date().toString() );
     }
 }
