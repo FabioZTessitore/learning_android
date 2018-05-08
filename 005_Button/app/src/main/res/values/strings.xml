@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Button</string>
+    <string name="help">Click the Button to update the Date</string>
+</resources>
