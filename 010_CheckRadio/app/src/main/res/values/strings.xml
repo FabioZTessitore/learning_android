@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CheckRadio</string>
+    <string name="welcome">Checkboxes and Radios</string>
+    <string name="checkbox_checked">CheckBox is checked</string>
+    <string name="checkbox_unchecked">CheckBox is unchecked</string>
+    <string name="gravity_left">Left</string>
+    <string name="gravity_center">Center</string>
+    <string name="gravity_right">Right</string>
+    <string name="orientation_horizontal">Horizontal</string>
+    <string name="orientation_vertical">Vertical</string>
+</resources>

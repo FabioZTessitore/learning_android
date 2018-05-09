@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/welcome_textcolor"
+        android:textSize="@dimen/welcome_textsize" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/form_padding"
+        android:paddingTop="@dimen/form_padding"
+        android:text="@string/checkbox_unchecked"
+        android:textSize="@dimen/form_textsize" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/gravityRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/form_padding"
+        android:paddingRight="@dimen/form_padding"
+        android:paddingTop="@dimen/form_padding">
+
+        <RadioButton
+            android:id="@+id/gravityLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gravity_left"
+            android:textSize="@dimen/form_textsize" />
+
+        <RadioButton
+            android:id="@+id/gravityCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gravity_center"
+            android:textSize="@dimen/form_textsize" />
+
+        <RadioButton
+            android:id="@+id/gravityRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gravity_right"
+            android:textSize="@dimen/form_textsize" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/orientationRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/form_padding">
+
+        <RadioButton
+            android:id="@+id/orientationHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/orientation_horizontal"
+            android:textSize="@dimen/form_textsize" />
+
+        <RadioButton
+            android:id="@+id/orientationVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/orientation_vertical"
+            android:textSize="@dimen/form_textsize" />
+    </RadioGroup>
+
+</LinearLayout>
