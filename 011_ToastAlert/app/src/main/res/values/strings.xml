@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToastAlert</string>
+    <string name="toast">Make a Toast</string>
+    <string name="toast_message">Toast Ready</string>
+    <string name="alert">Raise an Alert</string>
+    <string name="alert_message">Alert Body</string>
+    <string name="alert_message_title">Alert Title</string>
+    <string name="alert_neutral">Close</string>
+</resources>
