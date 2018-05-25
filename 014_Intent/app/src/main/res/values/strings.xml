@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="msg">Enter a message</string>
+    <string name="send">Send</string>
+    <string name="nomsg">Tell me something!</string>
+    <string name="home">Return to Home</string>
+</resources>
