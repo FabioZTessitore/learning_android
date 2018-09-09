@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /* Convertire il Layout di default con
+        /* Convertire il Layout di default in
         un LinearLayout (verticale).
         Poi aggiungere una casella di testo (TextView)
         e una immagine (ImageView) come fatto
