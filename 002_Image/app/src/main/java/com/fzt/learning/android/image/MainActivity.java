@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         copia/incolla l'immagine in res.drawable
 
-        aggiungere una ImageView e selezionare
-        @drawable/ferrari a src
+        aggiungere una ImageView e selezionare @drawable/ferrari
          */
     }
 }
