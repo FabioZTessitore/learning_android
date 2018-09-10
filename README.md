@@ -5,3 +5,4 @@
 1.  **Resource**      String, Dimension, Color
 1.  **Image**         Image
 1.  **LinearLayout**  LinearLayout
+1.  **FindEdit**      TextView, change string programmatically
