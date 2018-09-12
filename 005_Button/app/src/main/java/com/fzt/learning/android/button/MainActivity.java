@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         this.updateDate(dateButton);
         this.updateDate(date2Button);
 
-        // dateButton gestisce il click mediante
-        // View.OnClickListener
+        // dateButton gestisce il click mediante View.OnClickListener
         dateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,12 +31,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // date2Button gestisce il click assegnando
-        // ad android:onCLick la funzione handler (activity_main.xml)
-        // Deve avere prototipo
-        // public void foo(View v);
+        // date2Button gestisce il click mediante android:onCLick (activity_main.xml)
+        // Deve avere prototipo public void f(View v);
     }
 
+    // button click handler
     public void changeDate(View v) {
         this.updateDate((TextView)v);
     }

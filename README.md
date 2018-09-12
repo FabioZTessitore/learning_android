@@ -6,3 +6,4 @@
 1.  **Image**         Image
 1.  **LinearLayout**  LinearLayout
 1.  **FindEdit**      TextView, change string programmatically
+1.  **Button**        Button, onClick and onClickListener
