@@ -9,3 +9,4 @@
 1.  **Button**        Button, onClick and onClickListener
 1.  **Portrait**      Portrait
 1.  **EditText**      EditText, TextChangeListener
+1.  **SeekBar**       SeekBar, OnSeekBarChangeListener
