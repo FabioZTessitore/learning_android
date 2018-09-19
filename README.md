@@ -10,3 +10,5 @@
 1.  **Portrait**      Portrait
 1.  **EditText**      EditText, TextChangeListener
 1.  **SeekBar**       SeekBar, OnSeekBarChangeListener
+1.  **TipCalculator**
+
