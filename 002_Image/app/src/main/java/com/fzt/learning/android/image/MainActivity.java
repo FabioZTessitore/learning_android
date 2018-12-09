@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
         /* Visualizzare un'immagine:
 
-        copia/incolla l'immagine in res.drawable
+            copia/incolla l'immagine in res.drawable
 
-        aggiungere una ImageView e selezionare @drawable/ferrari
-         */
+            aggiungere una ImageView e selezionare @drawable/ferrari
+        */
     }
 }

@@ -3,7 +3,7 @@
 # learning_android
 
 1.  **Resource**      String, Dimension, Color
-1.  **Image**         Image
+1.  **Image**         ImageView
 1.  **LinearLayout**  LinearLayout
 1.  **FindEdit**      TextView, set string programmatically
 1.  **Button**        Button, onClick and onClickListener
