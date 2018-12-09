@@ -12,11 +12,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /* Dopo aver creato una stringa nelle risorse
-        modifichiamo il testo della TextView.
+            modifichiamo il testo della TextView.
 
-        Preliminarmente viene modificato l'ID
-        della TextView in "welcomeTextView"
-         */
+            Preliminarmente viene modificato l'ID
+            della TextView in "welcomeTextView"
+        */
 
         // seleziona la TextView
         TextView welcomeTextView = (TextView) findViewById(R.id.welcomeTextView);
