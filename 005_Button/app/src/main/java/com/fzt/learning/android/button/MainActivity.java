@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // find the buttons and set the initial timestamp
         dateButton = (Button) findViewById(R.id.dateButton);
         date2Button = (Button) findViewById(R.id.date2Button);
         this.updateDate(dateButton);
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         dateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                updateDate((TextView)v);
+                updateDate( (TextView)v );
             }
         });
 
@@ -35,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
         // Deve avere prototipo public void f(View v);
     }
 
-    // button click handler
+    // button2 click handler
     public void changeDate(View v) {
-        this.updateDate((TextView)v);
+        this.updateDate( (TextView)v );
     }
 
     private void updateDate(TextView v) {
