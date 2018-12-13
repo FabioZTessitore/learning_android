@@ -10,7 +10,9 @@
     <TextView
         android:id="@+id/messageTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="9"
         android:gravity="center"
         android:text="@string/message"
         android:textColor="@color/message_textcolor"
@@ -20,11 +22,14 @@
         android:id="@+id/messageEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
         android:ems="10"
         android:gravity="center"
-        android:hint="Change the Message"
+        android:hint="@string/change_message"
         android:inputType="text"
         android:textColor="@color/message_edit_textcolor"
-        android:textSize="@dimen/message_textsize" />
+        android:textSize="@dimen/message_textsize"
+        android:autofillHints="@string/change_message"/>
 
 </LinearLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">EditText</string>
     <string name="message">Edit Me!</string>
+    <string name="change_message">Change the Message</string>
 </resources>
