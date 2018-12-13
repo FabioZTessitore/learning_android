@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         valueTextView = (TextView) findViewById(R.id.valueTextView);
-        valueTextView.setText("50");
+        setProgressValue(50);
 
         valueSeekBar = (SeekBar) findViewById(R.id.valueSeekBar);
         valueSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                valueTextView.setText( String.format("%d", progress) );
+                setProgressValue(progress);
             }
 
             @Override
@@ -35,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void setProgressValue(int progress) {
+        valueTextView.setText( String.format("%d", progress) );
     }
 }
