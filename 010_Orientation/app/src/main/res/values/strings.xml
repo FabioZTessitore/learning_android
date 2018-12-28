@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Orientation</string>
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+</resources>
