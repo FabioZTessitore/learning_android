@@ -11,4 +11,5 @@
 1.  **EditText**      EditText, TextChangeListener
 1.  **SeekBar**       SeekBar, OnSeekBarChangeListener
 1.  **TipCalculator**
-
+1.  **Orientation**   Configuration, Orientation
+1.  **Intent**        Intent, change Activity
