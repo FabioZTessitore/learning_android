@@ -13,3 +13,5 @@
 1.  **TipCalculator**
 1.  **Orientation**   Configuration, Orientation
 1.  **Intent**        Intent, change Activity
+1.  **Menu**          Menu, MenuItem
+1.  **CheckRadio**    CheckBox and RadioButtons
