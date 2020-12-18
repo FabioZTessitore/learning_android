@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="welcome_textsize">32sp</dimen>
+    <dimen name="welcome_textsize">40sp</dimen>
 </resources>

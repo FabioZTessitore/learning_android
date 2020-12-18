@@ -3,6 +3,12 @@
 # learning_android
 
 1.  **Resource**      String, Dimension, Color
+
+
+
+## old
+
+
 1.  **Image**         ImageView
 1.  **LinearLayout**  LinearLayout
 1.  **FindEdit**      TextView, set string programmatically

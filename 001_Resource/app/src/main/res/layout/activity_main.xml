@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/welcome"
-        android:textColor="@color/welcome_textcolor"
+        android:textColor="@color/purple_500"
         android:textSize="@dimen/welcome_textsize" />
 
 </LinearLayout>
