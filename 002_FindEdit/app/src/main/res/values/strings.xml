@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">FindEdit</string>
-    <string name="welcome">Welcome to Android App Development!</string>
+    <string name="welcome">Welcome to Android App Development! (Only Portrait)</string>
 </resources>
