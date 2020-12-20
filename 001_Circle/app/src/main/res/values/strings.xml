@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Circle</string>
+    <string name="calculate_string">Calculate</string>
+    <string name="radius_hint">radius</string>
+    <string name="no_value_string">No value</string>
+    <string name="title_string">Calculate area of a circle</string>
+</resources>

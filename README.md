@@ -2,12 +2,11 @@
 
 # learning_android
 
-1.  **Resource**      Linear Layout; Resource: String, Dimension, Color
-1.  **FindEdit**      TextView: set string programmatically; Only Portrait
-1.  **Button**        Button: onClick, onClickListener
+1.	**Circle**        Resource; TextView; Only Portrait; EditText; Button.
 
 ## old
 
+1.	**Endurance**	  Resource; TextView; Only Portrait; EditText; Button.
 
 1.  **Image**         ImageView
 
