@@ -4,28 +4,32 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
+
+import com.example.circle.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView( binding.getRoot() );
     }
 
     public void calculateArea(View view) {
-        EditText radiusEditText = (EditText) findViewById(R.id.radiusEditText);
-        TextView textView = (TextView) findViewById(R.id.textView);
-
-        String radiusString = radiusEditText.getText().toString();
+        String radiusString = binding.radiusEditText.getText().toString();
         if (radiusString.equals("")) {
-            textView.setText(R.string.no_value_string);
+            binding.areaTextView.setText(R.string.no_value_string);
+            binding.radiusTextView.setText(R.string.no_value_string);
         } else {
             Double radius = Double.parseDouble(radiusString);
             Double area = radius * radius * Math.PI;
-            textView.setText( String.format("%g", area) );
+            binding.radiusTextView.setText( String.format("%g", radius) );
+            binding.areaTextView.setText( String.format("%g", area) );
         }
+        binding.radiusEditText.setText("");
     }
 }

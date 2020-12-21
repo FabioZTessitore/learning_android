@@ -4,4 +4,6 @@
     <string name="radius_hint">radius</string>
     <string name="no_value_string">No value</string>
     <string name="title_string">Calculate area of a circle</string>
+    <string name="area_string">area:</string>
+    <string name="radius_string">radius:</string>
 </resources>
