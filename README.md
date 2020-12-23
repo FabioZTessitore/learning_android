@@ -2,7 +2,9 @@
 
 # learning_android
 
-1.	**Circle**        Resource; TextView; Only Portrait; EditText; Button.
+1.	**Circle**           Resource; TextView; Only Portrait; EditText; Button.
+1.  **FragmentExample**  Fragment communication.
+1.  **ViewModelDemo**    ViewModel.
 
 ## old
 
